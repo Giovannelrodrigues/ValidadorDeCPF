@@ -99,3 +99,7 @@ function segundoValor(listNumber){
 }
 
 
+//poderia usar a logica de ao inves de transformar
+//a string em uma lista e tirar o ponto e hifen
+//use o comando let cpfLimpo = cpf.replace(/\D+/g, '')
+//esse comando tirar tudo que nao for numero e retorna uma string
