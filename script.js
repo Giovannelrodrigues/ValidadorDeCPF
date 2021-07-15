@@ -5,6 +5,10 @@ document.querySelector("#cpf").addEventListener('keyup', validadorText)
 function validadorText(event){
     let cpf = document.querySelector('#cpf')
     let tecla = event.key;
+    
+    if(tecla == 'Enter'){
+        validadorCPF()
+    }
 
     if(tecla == 'Backspace'){
     }
