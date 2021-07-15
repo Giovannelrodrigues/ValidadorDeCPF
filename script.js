@@ -6,10 +6,6 @@ function validadorText(event){
     let cpf = document.querySelector('#cpf')
     let tecla = event.key;
     
-    if(tecla == 'Enter'){
-        validadorCPF()
-    }
-
     if(tecla == 'Backspace'){
     }
     else if(cpf.value.length == 3 || cpf.value.length == 7){
