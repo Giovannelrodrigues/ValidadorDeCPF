@@ -1,14 +1,6 @@
 document.querySelector(".btn").addEventListener('click', validarCPF)
 document.querySelector("#cpf").addEventListener('keyup', validadorText)
 
-function detecta(event){
-    let tecla = event.key;
-    if(tecla == 'Backspace'){
-        let cpf = document.querySelector('#cpf').value
-        let tamanho = cpf.length
-        cpf = cpf.substring(0, tamanho - 1)
-    }
-}
 
 function validadorText(event){
     let cpf = document.querySelector('#cpf')
